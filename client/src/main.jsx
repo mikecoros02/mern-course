@@ -5,8 +5,8 @@ import 'react-toastify/dist/ReactToastify.css';
 import './index.css';
 import { ToastContainer } from 'react-toastify';
 createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  <>
     <App />
     <ToastContainer position='top-center' />
-  </React.StrictMode>
+  </>
 );
